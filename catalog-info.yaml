@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: publisher-portal-backend
+  description: |
+    Publisher Portal's Backend (BE).
+  links:
+    - title: Publisher Portal Backend Prod
+      url: https://api-portal.cod.com/
+    - title: Publisher Portal backend Staging
+      url: https://api.publisher-portal.cod-staging.com/
+    - title: Documentation
+      url: https://cod.atlassian.net/wiki/spaces/ME/overview?homepageId=243892350
+    - title: Bitbucket
+      url: https://bitbucket.org/cod/publisher-portal-be/src/master/
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: Component
+  owner: Adas
+  lifecycle: experimental
+  system: publisher-portal
+  providesApis:
+    - login
+    - settlement
+    - profile
+    - dashboard
+    - transaction
+    - finance
+    - payment-methods
+    - faq
+  dependsOn:
+    - publisher-portal-metadata-manager
