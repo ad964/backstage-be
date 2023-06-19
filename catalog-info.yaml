@@ -22,7 +22,7 @@ spec:
   owner: Adas
   lifecycle: experimental
   system: publisher-portal
-  providesApis:
+  providesApi:
     - login
     - settlement
     - profile
