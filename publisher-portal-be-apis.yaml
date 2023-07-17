@@ -44,3 +44,12 @@ spec:
       /login:
         get:
           summary: Validate login credentials of users
+      /settlement:
+        get:
+          summary: Fetches settlement based permissions
+      /profile:
+        get:
+          summary: Retrieves user's profile data
+      /dashboard:
+        get:
+          summary: Last 7 days Transaction's summary data 
