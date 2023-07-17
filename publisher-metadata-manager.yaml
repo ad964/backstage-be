@@ -22,5 +22,9 @@ spec:
   owner: Adas
   lifecycle: experimental
   system: publisher-portal
+  dependsOn:
+    - resource:default/publisher-portal-be
+  providesApis:
+    - login
   implementsApis:
     - API:eAnnex
