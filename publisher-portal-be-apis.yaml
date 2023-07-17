@@ -3,9 +3,9 @@ kind: API
 metadata:
   name: publisher-portal-be-api
   description: Publisher Portal Backend APIs
-  tags:
-    - publisherportal
-    - APIs
+  # tags:
+  #   - publisherportal
+  #   - APIs
   links:
     - url: https://github.com/swagger-api/swagger-petstore
       title: PP APIs
