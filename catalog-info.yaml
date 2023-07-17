@@ -17,6 +17,19 @@ metadata:
     github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
+relations:
+  - type: ownedBy
+    targetRef: group:default/publisher-portal
+    target:
+      kind: group
+      namespace: default
+      name: publisher-portal
+  - type: partOf
+    targetRef: system:default/merchant-portal-client
+    target:
+      kind: system
+      namespace: default
+      name: Merchant Portal Client
 spec:
   type: service
   owner: Adas
