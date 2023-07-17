@@ -47,6 +47,8 @@ spec:
     name: pp-backend-apis
   implementsApis:
     - API:login
+  dependsOn:
+    - backoffice-indra
   # providesApi:
   #   - login
   #   - settlement
