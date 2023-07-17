@@ -24,7 +24,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: login
+  name: pp-backend-apis
   description: PP Login API
 spec:
   type: openapi
