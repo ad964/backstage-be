@@ -41,6 +41,8 @@ spec:
   owner: Adas
   lifecycle: experimental
   system: publisher-portal
+  providesApi:
+    - pp-backend-apis
   implementsApis:
     - API:login
   # providesApi:
