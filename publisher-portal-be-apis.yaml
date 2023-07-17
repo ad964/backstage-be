@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: publisher-portal-be-api
+  description: Publisher Portal Backend APIs
+  tags:
+    - publisher-portal
+    - APIs
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: PP APIs
+      icon: code
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: publisher-portal
