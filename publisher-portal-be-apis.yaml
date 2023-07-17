@@ -4,12 +4,6 @@ metadata:
   namespace: default
   name: pp-login-api
 relations:
-  - type: apiProvidedBy
-    targetRef: component:default/publisher-portal-be
-    target:
-      kind: component
-      namespace: default
-      name: publisher-portal-be
   - type: ownedBy
     targetRef: group:default/guests
     target:
