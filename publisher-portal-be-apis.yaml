@@ -40,7 +40,7 @@ spec:
         name: Coda
     servers:
       - url: http://pp-be.com/v1
-             http://staging.pp-be.com/v1
+      - url: http://staging.pp-be.com/v1
     paths:
       /login:
         get:
