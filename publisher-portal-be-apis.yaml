@@ -1,23 +1,46 @@
+# apiVersion: backstage.io/v1alpha1
+# kind: API
+# metadata:
+#   namespace: default
+#   name: pp-login-api
+# relations:
+#   - type: ownedBy
+#     targetRef: group:default/guests
+#     target:
+#       kind: group
+#       namespace: default
+#       name: guests
+#   - type: partOf
+#     targetRef: system:default/examples
+#     target:
+#       kind: system
+#       namespace: default
+#       name: examples
+# spec:
+#   type: grpc
+#   lifecycle: experimental
+#   owner: guests
+#   system: examples
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  namespace: default
-  name: pp-login-api
-relations:
-  - type: ownedBy
-    targetRef: group:default/guests
-    target:
-      kind: group
-      namespace: default
-      name: guests
-  - type: partOf
-    targetRef: system:default/examples
-    target:
-      kind: system
-      namespace: default
-      name: examples
+  name: login
+  description: PP Login API
 spec:
-  type: grpc
+  type: openapi
   lifecycle: experimental
-  owner: guests
-  system: examples
+  owner: Adas
+  system: publisher-portal
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: PP API
+      license:
+        name: Coda
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /login:
+        get:
+          summary: Validate login credentials of users
