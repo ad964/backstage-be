@@ -48,7 +48,7 @@ spec:
   implementsApis:
     - API:login
   dependsOn:
-    - backoffice-indra
+    - component:default/backoffice-indra
   # providesApi:
   #   - login
   #   - settlement
