@@ -24,9 +24,9 @@ spec:
   system: publisher-portal
   dependsOn:
     - resource:default/publisher-portal-be
-  consumesApi:
+  consumesApis:
     - api:pp-backend-apis/login
-  providesApi:
+  providesApis:
     - login
   implementsApis:
     - api:eAnnex
