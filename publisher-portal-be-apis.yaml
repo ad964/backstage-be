@@ -4,7 +4,7 @@ metadata:
   name: publisher-portal-be-api
   description: Publisher Portal Backend APIs
   tags:
-    - publisher-portal
+    - publisherportal
     - APIs
   links:
     - url: https://github.com/swagger-api/swagger-petstore
