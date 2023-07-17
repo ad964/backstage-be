@@ -30,31 +30,33 @@ relations:
       kind: system
       namespace: default
       name: Merchant Portal Client
-  - type: providesApi
-    targetRef: api:default/login
-    target:
-      kind: api
-      namespace: default
-      name: login
-  - type: providesApi
-    targetRef: api:default/settlement
-    target:
-      kind: api
-      namespace: default
-      name: settlement
+  # - type: providesApi
+  #   targetRef: api:default/login
+  #   target:
+  #     kind: api
+  #     namespace: default
+  #     name: login
+  # - type: providesApi
+  #   targetRef: api:default/settlement
+  #   target:
+  #     kind: api
+  #     namespace: default
+  #     name: settlement
 spec:
   type: service
   owner: Adas
   lifecycle: experimental
   system: publisher-portal
-  providesApi:
-    - login
-    - settlement
-    - profile
-    - dashboard
-    - transaction
-    - finance
-    - payment-methods
-    - faq
+  implementsApis:
+    - API:login
+  # providesApi:
+  #   - login
+  #   - settlement
+  #   - profile
+  #   - dashboard
+  #   - transaction
+  #   - finance
+  #   - payment-methods
+  #   - faq
 #  dependsOn:
 #    - publisher-portal-metadata-manager
