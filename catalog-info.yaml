@@ -29,7 +29,7 @@ relations:
     target:
       kind: system
       namespace: default
-      name: Merchant Portal Client
+      name: merchant-portal-client
   # - type: providesApi
   #   targetRef: api:default/login
   #   target:
