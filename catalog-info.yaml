@@ -24,12 +24,6 @@ relations:
       kind: group
       namespace: default
       name: publisher-portal
-  - type: partOf
-    targetRef: system:default/merchant-portal-client
-    target:
-      kind: system
-      namespace: default
-      name: merchant-portal-client
   # - type: providesApi
   #   targetRef: api:default/login
   #   target:
