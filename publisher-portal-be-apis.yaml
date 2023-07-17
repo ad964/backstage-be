@@ -30,7 +30,7 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: Adas
-  system: publisher-portal-be
+  system: publisher-portal
   definition: |
     openapi: "3.0.0"
     info:
