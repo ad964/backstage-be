@@ -3,6 +3,10 @@ kind: System
 metadata:
   name: publisher-portal
   description: Publisher Portal System
+  annotations:
+    url: https://github.com/ad964/backstage-be/
+    title: PP BE Code Repo
 spec:
   owner: Adas
   domain: default
+  
