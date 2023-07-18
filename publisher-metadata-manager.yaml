@@ -22,8 +22,10 @@ spec:
   owner: Adas
   lifecycle: experimental
   system: publisher-portal
-  dependsOn:
-    - resource:default/publisher-portal-be
+  dependsOn: ['resource:default/publisher-portal-be']
+  apiConsumedBy: ['component:merchant-portal-client']
+  #dependsOn:
+  #  - resource:default/publisher-portal-be
   consumesApis:
     - api:pp-backend-apis/login
   providesApis:
