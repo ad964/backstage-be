@@ -4,8 +4,8 @@ metadata:
   name: publisher-portal
   description: Publisher Portal System
   annotations:
-    url: https://github.com/ad964/backstage-be/
-    title: PP BE Code Repo
+    - title: PP BE Code Repo
+      url: https://github.com/ad964/backstage-be/
   links:
     - title: Publisher Portal Backend Prod
       url: https://api-portal.cod.com/
