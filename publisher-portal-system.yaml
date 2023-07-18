@@ -6,6 +6,17 @@ metadata:
   annotations:
     url: https://github.com/ad964/backstage-be/
     title: PP BE Code Repo
+  links:
+    - title: Publisher Portal Backend Prod
+      url: https://api-portal.cod.com/
+    - title: Publisher Portal backend Staging
+      url: https://api.publisher-portal.cod-staging.com/
+    - title: Documentation
+      url: https://cod.atlassian.net/wiki/spaces/ME/overview?homepageId=243892350
+    - title: Bitbucket
+      url: https://bitbucket.org/cod/publisher-portal-be/src/master/
+    - title: Grafana
+      url: https://grafana.pp.be.com/dashboard-sample/
 spec:
   owner: Adas
   domain: default
