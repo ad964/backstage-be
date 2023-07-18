@@ -7,6 +7,9 @@ metadata:
     - title: PP BE Code Repo
       url: https://github.com/ad964/backstage-be/
   links:
+    - url: https://dashboard.example.com
+      title: PP Frontend
+      icon: dashboard
     - title: Publisher Portal Backend Prod
       url: https://api-portal.cod.com/
     - title: Publisher Portal backend Staging
