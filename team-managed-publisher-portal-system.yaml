@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: publisher-portal-team-managed
+  description: Publisher Portal System - team managed
+  links:
+    - url: https://dashboard.example.com
+      title: PP Frontend
+    - title: Publisher Portal Backend Prod
+      url: https://api-portal.cod.com/
+    - title: Publisher Portal backend Staging
+      url: https://api.publisher-portal.cod-staging.com/
+    - title: Documentation
+      url: https://cod.atlassian.net/wiki/spaces/ME/overview?homepageId=243892350
+    - title: Bitbucket
+      url: https://bitbucket.org/cod/publisher-portal-be/src/master/
+    - title: Grafana
+      url: https://grafana.pp.be.com/dashboard-sample/
+spec:
+  owner: user:publisher
+  domain: default
