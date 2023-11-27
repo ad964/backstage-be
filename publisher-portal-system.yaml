@@ -17,5 +17,5 @@ metadata:
     - title: Grafana
       url: https://grafana.pp.be.com/dashboard-sample/
 spec:
-  owner: Adas
+  owner: user:publisher
   domain: default
